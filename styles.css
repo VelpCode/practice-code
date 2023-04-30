@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+
+}
+
+.body{
+    background-color: #FEFFFE;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
+    justify-content: space-around;   
+    border-bottom: 3px solid #EFEEEF; 
+}
+
+
+.icon-text {
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 7px;
+    color: #000000;
+}
+
+.nav-item {
+    margin: 30px;
+}
+
+.nav-links {
+    padding-right: 300px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 100px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.butt-dude {
+    background-color: #F7Fe81;
+    border-radius: 20px;
+}
+
+.columns {
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+}
+
+.column-middle {
+    margin-bottom: 50px;
+}
+
+
+.hero {
+
+    padding-top: 20px;
+
+}
+
+
+
+.hero-text{
+    font-size: 60px;
+    word-spacing: 5px;
+}
+
+p {
+    color: #666666;
+}
+
+.text2{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.pandora {
+    margin-top: 60px;
+    background-color: #FFFFFF;
+    border-radius: 80px;
+    border: 1px solid lightgray;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.over-icon {
+    height: 50px;
+}
+
+.villan {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #DAE7E5;
+    padding: 20px;
+    border-radius: 20px;
+    width: 1500px;
+    background-image: url(images/);
+    height: 400px;
+}
+
+.browse {
+    font-size: 40px;
+}
+
+.rows {
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.column,
+.column2 {
+    margin-right: 90px;
+    padding: 40px; /* add margin to the right of the columns */
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+.row-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
